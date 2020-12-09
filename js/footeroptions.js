@@ -7,7 +7,6 @@ var secret = '2ubszmnkt81ET_dLPjRwmFm_0A';
 // Contribution Defaults This is the payload that will be sent
 // to /v1/purchase. The price will be populated by user choice.
 // user_id can be email address (if collected). It's random now.
-
 var contributionPayload = {
 	"user_id": Math.floor(Math.random() * (1000000 - 0) ),
 	"offering_id": "contribution_1",
@@ -17,7 +16,7 @@ var contributionPayload = {
 	"sales_model": "contribution"
 }
 
-
+// This handles user interface for the footer.
 var footerOptions = {
 	"lpid": "",
 	"ctaHeader": "We Need Your Support!",
