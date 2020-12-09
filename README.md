@@ -6,6 +6,8 @@ A call will be made to Tapper to record the contribution to a tab. It will retur
 
 This example does not include a form to solicit credit card information or process the transaction (to limit scope and complexity)
 
+*Note: There is no user feedback while the browser makes the (slow) calls to Tapper, so keep an eye on the network tab in Chrome to see activity*
+
 You will need to update `js/footeroptions.js` with your Tapper credentials.
 
 
